@@ -1,0 +1,39 @@
+.creation-date {
+    font-weight: bolder;
+
+    .date {
+        font-style: italic;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        background: none;
+        border: none;
+        outline: 0;
+
+        .icons {
+            font-size: 1.5rem;
+            margin-right: 5px;
+        }
+
+        &:hover {
+            &:first-child {
+                color: #4053ff;
+            }
+
+            &:last-child {
+                color: #dc280f;
+            }
+        }
+    }
+}
