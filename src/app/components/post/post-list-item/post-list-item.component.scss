@@ -1,39 +1,38 @@
-.creation-date {
-    font-weight: bolder;
+li {
+    list-style: none;
 
-    .date {
-        font-style: italic;
-    }
-}
+    .creation-date {
+        font-weight: bolder;
 
-.title {
-    font-size: 2rem;
-    font-weight: bolder;
-}
-
-.post-actions {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    button {
-        background: none;
-        border: none;
-        outline: 0;
-
-        .icons {
-            font-size: 1.5rem;
-            margin-right: 5px;
+        .date {
+            font-style: italic;
         }
+    }
 
-        &:hover {
-            &:first-child {
-                color: #4053ff;
+    .title {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .post-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            background: none;
+            border: none;
+            outline: 0;
+
+            .icon {
+                font-size: 1.5rem;
+                margin-right: 5px;
             }
 
-            &:last-child {
+            &:hover {
                 color: #dc280f;
             }
         }
     }
+
 }
