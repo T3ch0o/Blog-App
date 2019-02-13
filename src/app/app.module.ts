@@ -13,7 +13,6 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { PostListComponent } from './components/post/post-list/post-list.component';
 import { PostListItemComponent } from './components/post/post-list-item/post-list-item.component';
 import { NewPostComponent } from './components/post/new-post/new-post.component';
-import { appReducers } from './core/store/app.reducers';
 
 
 @NgModule({
